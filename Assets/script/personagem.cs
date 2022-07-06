@@ -68,7 +68,7 @@ public class personagem : MonoBehaviour
         if(collision.gameObject.layer == 8)
         {
             isJumping = false;
-            anim.SetBool("jump", false);
+            anim.SetBool("Jump", false);
         }
 
          if(collision.gameObject.tag == "espinhos")
